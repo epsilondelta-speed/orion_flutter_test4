@@ -8,7 +8,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'com.android.tools.build:gradle:8.4.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -51,7 +51,7 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
- //implementation "co.epsilondelta:orion-flutter:1.0.9"
+ implementation "co.epsilondelta:orion-flutter:1.0.14"
    // Debug build: bring in the plugin but strip out its embedded release-engine
       // debugImplementation("co.epsilondelta:orion-flutter:1.0.9") {
        //     exclude group: "io.flutter", module: "flutter_embedding_release"
